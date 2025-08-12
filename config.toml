@@ -1,0 +1,36 @@
+baseURL = "https://ujjwalsachan.com/"
+languageCode = "en-us"
+title = "Great Coffee with Conscience"
+theme = "your-theme-name"
+paginate = 10
+
+[params]
+  author = "Your Name"
+  description = "A simple Hugo site"
+  # Add more custom parameters as needed
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Products"
+    url = "/products/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Values"
+    url = "/values/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Blog"
+    url = "/blog/"
+    weight = 4
+
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
